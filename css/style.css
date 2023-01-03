@@ -1,0 +1,64 @@
+/* start global rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: 0.3s;
+    direction: ltr;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+/* end global rules */
+/* Start styleng */
+
+
+.contact {
+    /* display: flex; */
+    /* border-radius: 4px; */
+    /* flex-wrap: nowrap; */
+    /* justify-content: center; */
+    padding: 2vw;
+    margin-top: 21vw;
+    margin-left: 35vw;
+    float: left;
+}
+
+
+.contact a i {
+    /* display: flex; */
+    padding: 0.5vw;
+    color: #14285084;
+    font-size: 1.8vw;
+    transition: 0.3s;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: left;
+    /* background-color: rgba(0, 105, 196, 0.162); */
+}
+
+.contact a i:hover {
+    color: #142850;
+    font-size: 3.2vw;
+    position: relative;
+    top: -3.9vw;
+    left: 0px;
+    background-image: linear-gradient(to left top,
+            hsla(208, 61%, 44%, 0.5),
+            hsla(196, 100%, 41%, 0.502),
+            hsla(180, 100%, 37%, 0.503),
+            hsla(155, 100%, 43%, 0.505),
+            hsla(79, 86%, 50%, 0.507));
+    padding: 1.3vw;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/* end styleng */
